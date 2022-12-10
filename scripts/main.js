@@ -2,10 +2,6 @@
 let canvas = document.querySelector('.canvas');
 let context = canvas.getContext('2d');
 function dibujar(x, y) {
-    document.querySelector('#tiempo').innerHTML = 'T: 0';
-    document.querySelector('#posx').innerHTML = 'X: 20';
-    document.querySelector('#posy').innerHTML = 'Y: 0';
-
     canvas.width = 1000;
     canvas.height = 500;
 
